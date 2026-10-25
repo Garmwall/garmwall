@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/brand/png/readme-banner-dark.png">
-    <img alt="garmwall — Every tool call, checked." src="docs/brand/png/readme-banner-light.png" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme-banner-dark.png">
+    <img alt="garmwall — Every tool call, checked." src="docs/assets/readme-banner-light.png" width="100%">
   </picture>
 </p>
 
