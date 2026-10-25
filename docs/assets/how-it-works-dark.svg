@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-label="Garmwall sits between the AI agent and its MCP servers: every call is pinned, scanned and checked against a policy, then allowed, paused for approval, denied or redacted.">
+<defs><symbol id="mark" viewBox="0 0 64 64">
+  <mask id="m" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+    <path d="M9 25 L12 1 L25 14 H39 L52 1 L55 25 V37 L42.5 56 Q41 58.5 38 58.5 H26 Q23 58.5 21.5 56 L9 37 Z" fill="#fff"/>
+    <path d="M0 41.5 H64 M0 49 H64 M22 41.5 V49 M42 41.5 V49 M32 49 V64" stroke="#000" stroke-width="2.4"/>
+  </mask>
+  <path d="M9 25 L12 1 L25 14 H39 L52 1 L55 25 V37 L42.5 56 Q41 58.5 38 58.5 H26 Q23 58.5 21.5 56 L9 37 Z" fill="#E7E9EE" mask="url(#m)"/>
+  <path d="M17 27.5 L28.5 31 L26.6 34.6 L18.6 32 Z" fill="#FF7A45"/>
+  <path d="M47 27.5 L35.5 31 L37.4 34.6 L45.4 32 Z" fill="#FF7A45"/>
+</symbol></defs>
+  <rect width="1280" height="480" rx="20" fill="#0A0C10"/>
+
+  <rect x="40" y="150" width="220" height="180" rx="14" fill="#11141A" stroke="#232836"/>
+  <text x="64" y="192" font-family="Geist, 'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#E7E9EE">AI agent</text>
+  <text x="64" y="226" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9AA3B5">Claude Code</text><text x="64" y="252" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9AA3B5">Cursor</text><text x="64" y="278" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9AA3B5">any MCP client</text>
+
+  <rect x="1020" y="150" width="220" height="180" rx="14" fill="#11141A" stroke="#232836"/>
+  <text x="1044" y="192" font-family="Geist, 'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#E7E9EE">MCP servers</text>
+  <text x="1044" y="226" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9AA3B5">filesystem</text><text x="1044" y="252" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9AA3B5">github</text><text x="1044" y="278" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9AA3B5">shell · http</text>
+  <rect x="350" y="40" width="580" height="400" rx="18" fill="#11141A" stroke="#FF7A45" stroke-opacity="0.55" stroke-width="1.5"/>
+  <use href="#mark" x="378" y="58" width="40" height="40"/>
+  <text x="428" y="88" font-family="Geist, 'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" letter-spacing="-1" fill="#E7E9EE">garmwall</text>
+  <text x="900" y="86" text-anchor="end" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#9AA3B5">every tool call, checked</text>
+
+  <rect x="380" y="118" width="520" height="58" rx="10" fill="#171B23" stroke="#232836"/>
+  <circle cx="412" cy="147" r="14" fill="none" stroke="#FF7A45" stroke-width="1.5"/>
+  <text x="412" y="152" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#FF7A45">1</text>
+  <text x="442" y="144" font-family="Geist, 'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#E7E9EE">pin</text>
+  <text x="442" y="164" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#9AA3B5">is this still the tool I approved?</text>
+
+  <rect x="380" y="190" width="520" height="58" rx="10" fill="#171B23" stroke="#232836"/>
+  <circle cx="412" cy="219" r="14" fill="none" stroke="#FF7A45" stroke-width="1.5"/>
+  <text x="412" y="224" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#FF7A45">2</text>
+  <text x="442" y="216" font-family="Geist, 'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#E7E9EE">scan</text>
+  <text x="442" y="236" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#9AA3B5">secrets · injection · exfiltration · shell</text>
+
+  <rect x="380" y="262" width="520" height="58" rx="10" fill="#171B23" stroke="#232836"/>
+  <circle cx="412" cy="291" r="14" fill="none" stroke="#FF7A45" stroke-width="1.5"/>
+  <text x="412" y="296" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#FF7A45">3</text>
+  <text x="442" y="288" font-family="Geist, 'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#E7E9EE">policy</text>
+  <text x="442" y="308" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#9AA3B5">Cedar rules · least privilege · deny by default</text>
+  <text x="380" y="356" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#9AA3B5">decision</text>
+
+  <rect x="400" y="372" width="96" height="28" rx="14" fill="#34D399" fill-opacity="0.12" stroke="#34D399" stroke-opacity="0.5"/>
+  <circle cx="416" cy="386" r="4" fill="#34D399"/>
+  <text x="428" y="391" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#34D399">allow</text>
+
+  <rect x="526" y="372" width="96" height="28" rx="14" fill="#FBBF24" fill-opacity="0.12" stroke="#FBBF24" stroke-opacity="0.5"/>
+  <circle cx="542" cy="386" r="4" fill="#FBBF24"/>
+  <text x="554" y="391" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#FBBF24">ask</text>
+
+  <rect x="652" y="372" width="96" height="28" rx="14" fill="#F87171" fill-opacity="0.12" stroke="#F87171" stroke-opacity="0.5"/>
+  <circle cx="668" cy="386" r="4" fill="#F87171"/>
+  <text x="680" y="391" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#F87171">deny</text>
+
+  <rect x="778" y="372" width="96" height="28" rx="14" fill="#A5B4FC" fill-opacity="0.12" stroke="#A5B4FC" stroke-opacity="0.5"/>
+  <circle cx="794" cy="386" r="4" fill="#A5B4FC"/>
+  <text x="806" y="391" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#A5B4FC">redact</text>
+
+  <line x1="262" y1="220" x2="341" y2="220" stroke="#9AA3B5" stroke-width="1.6"/>
+  <path d="M341 215 L348 220 L341 225 Z" fill="#9AA3B5"/>
+  <text x="305.0" y="210" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#9AA3B5">request</text>
+
+  <line x1="348" y1="270" x2="269" y2="270" stroke="#9AA3B5" stroke-width="1.6"/>
+  <path d="M269 265 L262 270 L269 275 Z" fill="#9AA3B5"/>
+  <text x="305.0" y="290" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#9AA3B5">response</text>
+
+  <line x1="932" y1="220" x2="1011" y2="220" stroke="#9AA3B5" stroke-width="1.6"/>
+  <path d="M1011 215 L1018 220 L1011 225 Z" fill="#9AA3B5"/>
+  <text x="975.0" y="210" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#9AA3B5">if allowed</text>
+
+  <line x1="1018" y1="270" x2="939" y2="270" stroke="#9AA3B5" stroke-width="1.6"/>
+  <path d="M939 265 L932 270 L939 275 Z" fill="#9AA3B5"/>
+  <text x="975.0" y="290" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#9AA3B5">result</text>
+</svg>
