@@ -223,7 +223,7 @@ Licensed under the [Apache License, Version 2.0](LICENSE). See [NOTICE](NOTICE).
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/brand/svg/garmwall-mark-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/garmwall-mark-light.svg">
     <img alt="Garmwall mark" src="docs/assets/garmwall-mark-dark.svg" width="40">
   </picture>
   <br>
